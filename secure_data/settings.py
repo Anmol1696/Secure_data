@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'site_secure'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -65,6 +66,9 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
+
+MEDIA_ROOT = '/home/anmol/Django/git/Secure_data/media'
+MEDIA_URL = '/media/'
 
 LANGUAGE_CODE = 'en-us'
 
